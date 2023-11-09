@@ -43,6 +43,13 @@ int main(){
     std::cout << "Ingrese la materia que imparte el profesor: ";
     getline(std::cin, materia);
 
+    std::cout<< "Ingrese los anios de experiencia del profesor: ";
+    std::cin>>añosExperiencia;
+
+    // Crear un objeto de la clase Profesor con los datos ingresados
+    Profesor profesor(nombre, edad, materia, añosExperiencia);
+
+
 
 
 

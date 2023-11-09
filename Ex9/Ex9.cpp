@@ -30,3 +30,5 @@ public:
         materias.push_back(materia);
     }
 };
+int main() {
+    Estudiante estudiante("Estudiante1");

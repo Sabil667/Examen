@@ -32,3 +32,12 @@ public:
 };
 int main() {
     Estudiante estudiante("Estudiante1");
+    try {
+        estudiante.registrarMateria("Matematicas");
+        estudiante.registrarMateria("Historia");
+        estudiante.registrarMateria("Lengua");
+        estudiante.registrarMateria("Matematicas");
+        estudiante.registrarMateria("Arabe");
+    } catch (const MateriaYaRegistradaException& e) {
+        std::cerr << "Error: " << e.what() << std::endl;
+    }

@@ -21,3 +21,15 @@ std::vector<Estudiante> filtrarEstudiantes(const std::vector<Estudiante>& estudi
     }
     return estudiantes_filtrados;
 }
+
+int main(){
+    //Lista de estudiantes
+    std::vector<Estudiante> estudiantes;
+    estudiantes.push_back(Estudiante("Estudiante1", 19, "Ingeniería en Sistemas"));
+    estudiantes.push_back(Estudiante("Estudiante2", 18, "Ingeniería en Sistemas"));
+    estudiantes.push_back(Estudiante("Estudiante3", 21, "Medicina"));
+    estudiantes.push_back(Estudiante("Estudiante4", 22, "Odontología"));
+
+
+
+}

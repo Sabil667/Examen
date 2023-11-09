@@ -5,7 +5,7 @@ class Profesor{
 public:
     std::string nombre;
     int edad;
-    std::string materia,
+    std::string materia;
     int añosExperiencia;
 
     //Constructor para inicializar las propiedades
@@ -43,16 +43,14 @@ int main(){
     std::cout << "Ingrese la materia que imparte el profesor: ";
     getline(std::cin, materia);
 
-    std::cout<< "Ingrese los anios de experiencia del profesor: ";
+    std::cout<< "Anios de experiencia del profesor: ";
     std::cin>>añosExperiencia;
 
     // Crear un objeto de la clase Profesor con los datos ingresados
     Profesor profesor(nombre, edad, materia, añosExperiencia);
 
-
-
-
-
+    // Mostrar la información del profesor
+    profesor.mostrar_info();
 
 
 }

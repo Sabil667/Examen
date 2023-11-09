@@ -30,6 +30,18 @@ int main(){
     estudiantes.push_back(Estudiante("Estudiante3", 21, "Medicina"));
     estudiantes.push_back(Estudiante("Estudiante4", 22, "Odontología"));
 
+    //Grado que buscamos
+    std::string gradoBuscado = "Ingeniería en Sistemas";
+
+    //Filtrar estudiantes por grado
+    std::vector<Estudiante> estudiantesFiltrados = filtrarEstudiantes(estudiantes, gradoBuscado);
+
+    //Mostrar estudiantes filtrados
+
+    std::cout << "Estudiantes en el grado " << gradoBuscado << ":" << std::endl;
+    for (const Estudiante& estudiante : estudiantesFiltrados) {
+        std::cout << "Nombre: " << estudiante.nombre << ", Edad: " << estudiante.edad << std::endl;
+    }
 
 
 }

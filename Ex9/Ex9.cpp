@@ -41,3 +41,10 @@ int main() {
     } catch (const MateriaYaRegistradaException& e) {
         std::cerr << "Error: " << e.what() << std::endl;
     }
+
+    // Mostrar las materias registradas
+    std::cout<<"Materias registradas por el estudiante: "<<estudiante.nombre<<":"<<std::endl;
+    for (const std::string& materia : estudiante.materias) {
+        std::cout << "- " << materia << std::endl;
+    }
+}

@@ -23,3 +23,22 @@ public:
 
 
 };
+
+int main(){
+    std::string nombre;
+    int edad;
+    std::string materia;
+    int añosExperiencia;
+
+
+    //Solicitar al usuario que introduzca los datos del profesor
+    std::cout<<"Introduce el nombre del profesor: ";
+    getline(std::cin, nombre);
+
+    std::cout<<"Introduce la edad del profesor: ";
+    std::cin>>edad;
+
+
+
+
+}

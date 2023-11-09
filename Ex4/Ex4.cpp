@@ -4,6 +4,12 @@ int main(){
 
     int dividendo;
     std::cout<<"Escoja un valor para el dividendo";
+    std::cin>>dividendo;
+    int divisor;
+    std::cout<<"Escoja un valor para el divisor";
+    std::cin>>divisor;
+
+
 
 
 }

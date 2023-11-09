@@ -9,7 +9,7 @@ b. Tipado fuerte y estático
 c. Soporte a la programación de bajo nivel
 d. Todas las anteriores
 
-La respuesta correcta es la d.
+La respuesta correcta es la d.(Todas las anteriores).
 
 2.Durante el proceso de desarrollo, a menudo es necesario compilar y enlazar múltiples archivos. En este contexto, ¿qué es un archivo makefile?
 

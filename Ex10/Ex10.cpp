@@ -38,6 +38,13 @@ int main(){
     std::cout<<"Introduce la edad del profesor: ";
     std::cin>>edad;
 
+    std::cin.ignore(); // Para consumir el salto de línea pendiente
+
+    std::cout << "Ingrese la materia que imparte el profesor: ";
+    getline(std::cin, materia);
+
+
+
 
 
 

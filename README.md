@@ -4,6 +4,7 @@ https://github.com/Sabil667/Examen.git
 
 
 Cada uno de los ejercicos que he hecho vienen ordenados cada uno de ellos en una carpeta en donde aparece nombrado el numero del ejercicio (Ej: Ex1).Excepto el ejercicio 5 el cual pedia ampliar la clase 'Estudiante', por lo que aparece junto al ejercicio 2 en su carpeta correspondiente bajo el nombre de (Ex2y5).
+Fuente :Chatgpt
 
 
 
